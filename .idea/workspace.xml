@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10203871-160b-431d-ae0d-cca9d6ceb311" name="Default" comment="">
+    <list default="true" id="10203871-160b-431d-ae0d-cca9d6ceb311" name="Default" comment="初始化项目，添加循环，分支，数据结构等代码">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Practice/study2.py" afterPath="$PROJECT_DIR$/Practice/study2.py" />
     </list>
     <ignored path="VIPtest2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +30,8 @@
       <file leaf-file-name="study2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Practice/study2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="101" column="27" selection-start-line="101" selection-start-column="27" selection-end-line="101" selection-end-column="27" />
+            <state relative-caret-position="688">
+              <caret line="85" column="26" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -412,7 +411,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555763753293</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="初始化项目，添加循环，分支，数据结构等代码">
+      <created>1555833668647</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555833668647</updated>
+    </task>
+    <task id="LOCAL-00003" summary="作业代码提交：study2  1-5">
+      <created>1555834024145</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555834024145</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -452,7 +465,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化项目，添加循环，分支，数据结构等代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化项目，添加循环，分支，数据结构等代码" />
+    <MESSAGE value="作业代码提交：study2  1-5" />
+    <option name="LAST_COMMIT_MESSAGE" value="作业代码提交：study2  1-5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -533,8 +547,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Practice/study2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="101" column="27" selection-start-line="101" selection-start-column="27" selection-end-line="101" selection-end-column="27" />
+        <state relative-caret-position="688">
+          <caret line="85" column="26" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
           <folding />
         </state>
       </provider>
