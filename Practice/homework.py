@@ -49,3 +49,4 @@ for x1 in range(2, 10000):
     else:
         li3.append(x1)
 print(li3)
+
