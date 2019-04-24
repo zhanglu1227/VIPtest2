@@ -23,15 +23,20 @@ x = list(set(li))
 print(x)
 
 # 4 求斐波那契数列 1 2 3 5 8 13 …
+list2 = []
 a = 0
 b = 1
 c = 1
 while c < 100:
-    print(c, end=',')
 
+    # print(c, end=',')
+    list2.append(c)
     a = b
     b = c
     c = a + b
+
+print(list2)
+
 
 # 5 求10000以内的质数（质数：只能被1和它本身整除）
 li3 = []
