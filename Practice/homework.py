@@ -19,8 +19,18 @@ print(list1)
 
 # 3 列表[1,2,3,4,3,4,2,5,5,8,9,7],将此列表去重，得到一个唯一元素的列表
 li = [1, 2, 3, 4, 3, 4, 2, 5, 5, 8, 9, 7]
-x = list(set(li))
-print(x)
+# x = list(set(li))
+# print(x)
+
+# 排序
+li.sort()
+# 去掉重复
+li1 = []
+for i in li:
+    if i not in li1:
+        li1.append(i)
+print(li1)
+
 
 # 4 求斐波那契数列 1 2 3 5 8 13 …
 list2 = []
