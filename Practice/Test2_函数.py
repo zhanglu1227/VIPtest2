@@ -26,3 +26,31 @@ def func(a, b, c, *args, **kwargs):
 func(11, 22, 33, 44, 55, task=66, done=77)
 
 
+# 递归函数
+# n!=1*2*3*...*n
+# 方法一
+def calnum(num):
+    i = 1
+    result = 1
+
+    while i <= num:
+        result *= i
+        i += 1
+
+    return result
+
+ret = calnum(9)
+print(ret)
+
+# 方法二
+def calnum(num):
+    if num >= 1:
+        result = num * calnum(num-1)
+
+    else:
+        result = 1
+
+    return result
+
+ret = calnum(9)
+print(ret)
