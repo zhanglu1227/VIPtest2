@@ -193,3 +193,5 @@ print(li)
 # print(list(di.keys()))
 # print(list(di.values()))
 
+dict = {'a': 1, 'b': 2, 'c': 3}
+print(dict.items())

@@ -1,3 +1,4 @@
+'''
 # 4.20 作业
 
 # 1 求10阶乘
@@ -60,3 +61,34 @@ for x1 in range(2, 10000):
         li3.append(x1)
 print(li3)
 
+'''
+
+# ---------------------------------------------------------------
+
+# 5.11作业
+
+# 1、取出文件中的数字并排序
+f = open('/Users/cola/Desktop/testcode/VIPtest2/data2', 'r')
+f1 = f.read()
+li = []
+
+n = 1
+for line in f1:
+    n += 1
+    line = line.replace('', '')
+    # line = line.replace('\n', '')
+    if line.isdigit():
+        li.append(line)
+
+    else:
+        continue
+
+# print(li)
+
+def bubble_sort(li):
+    for i in range(len(li)-1):
+        for j in range(len(li)-i-1):
+            if li[j] > li[j+1]:
+                li[j], li[j+1] = li[j+1], li[j]
+    return li
+print(bubble_sort(li))

@@ -54,3 +54,9 @@ def calnum(num):
 
 ret = calnum(9)
 print(ret)
+
+a = [1, 3, 5, 7]
+a.insert(3, a[0])
+# print(a)
+print(a[1:])
+
