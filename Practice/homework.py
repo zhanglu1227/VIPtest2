@@ -72,9 +72,9 @@ f = open('/Users/cola/Desktop/testcode/VIPtest2/data2', 'r')
 f1 = f.read()
 li = []
 
-n = 1
+# n = 1
 for line in f1:
-    n += 1
+    # n += 1
     line = line.replace('', '')
     # line = line.replace('\n', '')
     if line.isdigit():
@@ -92,3 +92,4 @@ def bubble_sort(li):
                 li[j], li[j+1] = li[j+1], li[j]
     return li
 print(bubble_sort(li))
+

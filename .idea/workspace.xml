@@ -1,25 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10203871-160b-431d-ae0d-cca9d6ceb311" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practice/Mymodule.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practice/study_函数.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practice/study_多重继承.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practice/study_异常处理.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practice/study_文件IO.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practice/study_类的创建.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practice/study_调用模块.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practice/test_module.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试包/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试包/包的调用.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/VIPtest2.iml" afterPath="$PROJECT_DIR$/.idea/VIPtest2.iml" />
+    <list default="true" id="10203871-160b-431d-ae0d-cca9d6ceb311" name="Default" comment="homework中完成作业--取出文件的数字并排序&#10;&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Practice/Test1.py" afterPath="$PROJECT_DIR$/Practice/Test1.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Practice/Test2_函数.py" afterPath="$PROJECT_DIR$/Practice/Test2_函数.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Practice/homework.py" afterPath="$PROJECT_DIR$/Practice/homework.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Practice/study1.py" afterPath="$PROJECT_DIR$/Practice/study1.py" />
     </list>
     <ignored path="VIPtest2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,8 +20,8 @@
     <SUITE FILE_PATH="coverage/VIPtest2$Test1.coverage" NAME="Test1 Coverage Results" MODIFIED="1557498905881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice" />
     <SUITE FILE_PATH="coverage/VIPtest2$.coverage" NAME="包的调用 Coverage Results" MODIFIED="1557556920838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试包" />
     <SUITE FILE_PATH="coverage/VIPtest2$test_module.coverage" NAME="test_module Coverage Results" MODIFIED="1557558298675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice" />
-    <SUITE FILE_PATH="coverage/VIPtest2$homework.coverage" NAME="homework Coverage Results" MODIFIED="1557849898275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice" />
-    <SUITE FILE_PATH="coverage/VIPtest2$Test2_.coverage" NAME="Test2_函数 Coverage Results" MODIFIED="1557287180816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice" />
+    <SUITE FILE_PATH="coverage/VIPtest2$homework.coverage" NAME="homework Coverage Results" MODIFIED="1557902638042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice" />
+    <SUITE FILE_PATH="coverage/VIPtest2$Test2_.coverage" NAME="Test2_函数 Coverage Results" MODIFIED="1557902223694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice" />
     <SUITE FILE_PATH="coverage/VIPtest2$study1.coverage" NAME="study1 Coverage Results" MODIFIED="1557539838349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice" />
     <SUITE FILE_PATH="coverage/VIPtest2$Mymodule.coverage" NAME="Mymodule Coverage Results" MODIFIED="1557558010630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice" />
     <SUITE FILE_PATH="coverage/VIPtest2$study_.coverage" NAME="study_多重继承 Coverage Results" MODIFIED="1557575886914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice" />
@@ -55,7 +40,7 @@
       <file leaf-file-name="study_文件IO.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Practice/study_文件IO.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
+            <state relative-caret-position="1760">
               <caret line="80" column="22" selection-start-line="61" selection-start-column="0" selection-end-line="80" selection-end-column="22" />
               <folding />
             </state>
@@ -65,8 +50,48 @@
       <file leaf-file-name="homework.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Practice/homework.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="88" column="30" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
+            <state relative-caret-position="270">
+              <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test2_函数.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Practice/Test2_函数.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="study2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Practice/study2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-599">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="study_函数.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Practice/study_函数.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1650">
+              <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -98,7 +123,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Practice/study2.py" />
-        <option value="$PROJECT_DIR$/Practice/Test2_函数.py" />
         <option value="$PROJECT_DIR$/Practice/Test1.py" />
         <option value="$PROJECT_DIR$/Practice/study1.py" />
         <option value="$PROJECT_DIR$/Practice/study_函数.py" />
@@ -113,6 +137,7 @@
         <option value="$PROJECT_DIR$/Practice/study_多重继承.py" />
         <option value="$PROJECT_DIR$/data2" />
         <option value="$PROJECT_DIR$/Practice/study_文件IO.py" />
+        <option value="$PROJECT_DIR$/Practice/Test2_函数.py" />
         <option value="$PROJECT_DIR$/Practice/homework.py" />
       </list>
     </option>
@@ -153,8 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,6 +226,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,24 +237,6 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager" selected="Python.homework">
-    <configuration default="false" name="study_异常处理" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="VIPtest2" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice/study_异常处理.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="study_文件IO" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -298,6 +305,24 @@
       <module name="VIPtest2" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice/homework.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test2_函数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="VIPtest2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice/Test2_函数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -511,19 +536,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.study_异常处理" />
-      <item index="1" class="java.lang.String" itemvalue="Python.study_文件IO" />
-      <item index="2" class="java.lang.String" itemvalue="Python.study_类的创建" />
-      <item index="3" class="java.lang.String" itemvalue="Python.study_多重继承" />
-      <item index="4" class="java.lang.String" itemvalue="Python.homework" />
+      <item index="0" class="java.lang.String" itemvalue="Python.study_文件IO" />
+      <item index="1" class="java.lang.String" itemvalue="Python.study_类的创建" />
+      <item index="2" class="java.lang.String" itemvalue="Python.study_多重继承" />
+      <item index="3" class="java.lang.String" itemvalue="Python.homework" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Test2_函数" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.homework" />
-        <item index="1" class="java.lang.String" itemvalue="Python.study_文件IO" />
-        <item index="2" class="java.lang.String" itemvalue="Python.study_多重继承" />
-        <item index="3" class="java.lang.String" itemvalue="Python.study_类的创建" />
-        <item index="4" class="java.lang.String" itemvalue="Python.study_异常处理" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Test2_函数" />
+        <item index="2" class="java.lang.String" itemvalue="Python.study_文件IO" />
+        <item index="3" class="java.lang.String" itemvalue="Python.study_多重继承" />
+        <item index="4" class="java.lang.String" itemvalue="Python.study_类的创建" />
       </list>
     </recent_temporary>
   </component>
@@ -622,20 +647,27 @@
       <option name="project" value="LOCAL" />
       <updated>1557122674975</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="homework中完成作业--取出文件的数字并排序&#10;&#10;">
+      <created>1557850040152</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1557850040153</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19789983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20113085" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30307943" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30307943" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42787683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -670,7 +702,8 @@
     <MESSAGE value="函数练习&#10;" />
     <MESSAGE value="修改作业题3&#10;" />
     <MESSAGE value="更新函数练习&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新函数练习&#10;" />
+    <MESSAGE value="homework中完成作业--取出文件的数字并排序&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework中完成作业--取出文件的数字并排序&#10;&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -924,13 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Practice/study2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Practice/study1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
@@ -973,13 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Practice/study_函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Practice/study_异常处理.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -987,24 +1006,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Practice/Test2_函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Practice/Test1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5258">
           <caret line="239" column="16" selection-start-line="239" selection-start-column="16" selection-end-line="239" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1022,6 +1027,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Practice/study_文件IO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="80" column="22" selection-start-line="61" selection-start-column="0" selection-end-line="80" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practice/study2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-599">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practice/Test2_函数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practice/study_函数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data2">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -1030,18 +1075,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Practice/study_文件IO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="80" column="22" selection-start-line="61" selection-start-column="0" selection-end-line="80" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Practice/homework.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="88" column="30" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
+        <state relative-caret-position="270">
+          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding />
         </state>
       </provider>
