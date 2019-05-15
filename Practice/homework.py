@@ -68,7 +68,7 @@ print(li3)
 # 5.11作业
 
 # 1、取出文件中的数字并排序
-f = open('/Users/cola/Desktop/testcode/VIPtest2/data2', 'r')
+f = open('/Users/cola/Desktop/testcode/VIPtest2/data2', 'r+')
 f1 = f.read()
 li = []
 
@@ -83,6 +83,7 @@ for line in f1:
     else:
         continue
 
+
 # print(li)
 
 def bubble_sort(li):
@@ -92,4 +93,16 @@ def bubble_sort(li):
                 li[j], li[j+1] = li[j+1], li[j]
     return li
 print(bubble_sort(li))
+# f.close()
 
+# f = open('/Users/cola/Desktop/testcode/VIPtest2/data2', 'a+')
+# for x in f.readlines():
+#     if bubble_sort(li) not in x:
+#         f.write(str(bubble_sort(li)))
+#     else:
+#         break
+f.write(str(bubble_sort(li)))
+f.close()
+
+# 2、打印小猫爱吃鱼，小猫要喝水
+# 3、小明爱跑步，爱吃东西
