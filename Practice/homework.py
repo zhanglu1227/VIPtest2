@@ -66,7 +66,7 @@ print(li3)
 # ---------------------------------------------------------------
 
 # 5.11作业
-
+'''
 # 1、取出文件中的数字并排序
 f = open('/Users/cola/Desktop/testcode/VIPtest2/data2', 'r+')
 f1 = f.read()
@@ -103,6 +103,89 @@ print(bubble_sort(li))
 #         break
 f.write(str(bubble_sort(li)))
 f.close()
+'''
 
 # 2、打印小猫爱吃鱼，小猫要喝水
+class Cat:
+    def __init__(self, name):  # 实例属性，初始化
+        self.name = name
+
+    def eat(self, food):
+        print('%s爱吃%s'%(self.name,food))  # 自定义方法，属性
+
+    def drink(self, water):
+        print('%s要喝%s'%(self.name,water)) # 自定义方法，属性
+
+a = Cat('小猫')  # 实例化
+a.eat('鱼')   # 调用类中方法
+a.drink('水')  # 调用类中方法
+
 # 3、小明爱跑步，爱吃东西
+class Person:
+
+    def __init__(self, name1, name2):
+        self.name1 = name1
+        self.name2 = name2
+
+    def run(self, running):
+        print('%s爱%s'%(self.name1,running))
+
+    def eat(self, food):
+        print('爱吃%s'%food)
+
+    # 1）小明体重75.0公斤
+    def weight(self, weight1, weight2):
+        print('%s体重%s公斤'%(self.name1,weight1))
+        # print('每次%s会减肥%公斤'%(running, weight3))
+
+        # 4）小美的体重是45.0公斤
+        print('%s体重%s公斤'%(self.name2,weight2))
+
+    # 2）每次跑步会减肥0.5公斤
+
+    # 3）每次吃东西体重会增加1公斤
+
+
+b = Person('小明','小美')
+b.run('跑步')
+b.eat('东西')
+b.weight('75.0', '45.0')
+
+# 4 摆放家具
+# 1）.房子有户型，总面积和家具名称列表
+# 新房子没有任何的家具
+class Home:
+
+    def __init__(self, model, area):
+        self.area = area
+        self.model = model
+        self.furniture = []
+
+# 2）.家具有名字和占地面积，其中
+#    床：占4平米
+#    衣柜：占2平面
+#    餐桌：占1.5平米
+class Bed:
+
+    def __init__(self, area, name = '床'):
+        self.name = name
+        self.area = area
+
+    def __str__(self):
+        msg = '床占地面积为：' + str(self.area)
+        return msg
+
+
+# 3）.将以上三件家具添加到房子中
+
+# 4）.打印房子时，要求输出:户型，总面积，剩余面积，家具名称列表
+
+
+
+
+
+
+
+
+
+
