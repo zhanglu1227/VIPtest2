@@ -93,16 +93,10 @@ def bubble_sort(li):
                 li[j], li[j+1] = li[j+1], li[j]
     return li
 print(bubble_sort(li))
-# f.close()
+f2 = open('/Users/cola/Desktop/testcode/VIPtest2/data3', 'r+')
+f2.write(str(bubble_sort(li)))
+f2.close()
 
-# f = open('/Users/cola/Desktop/testcode/VIPtest2/data2', 'a+')
-# for x in f.readlines():
-#     if bubble_sort(li) not in x:
-#         f.write(str(bubble_sort(li)))
-#     else:
-#         break
-f.write(str(bubble_sort(li)))
-f.close()
 '''
 
 # 2、打印小猫爱吃鱼，小猫要喝水
@@ -186,24 +180,24 @@ class House():
         self.free_area = area
         self.item_list = []
 
-        def __str__(self):
-            return ('户型:%s\n总面积:%.2f[剩余:%.2f]\n家具:%s'
-                    % (self.house_type, self.area, self.free_area, self.item_list))
+    def __str__(self):
+        return ('户型:%s\n总面积:%.2f[剩余:%.2f]\n家具:%s'
+                % (self.house_type, self.area, self.free_area, self.item_list))
 
-        def add_item(self, item):
-            # 1.判断家具的面积
-            if item.area > self.free_area:
+    def add_item(self, item):
+        # 1.判断家具的面积
+        if item.area > self.free_area:
                 print('%s的面积太大，无法添加' % item.name)
 
-            # 2.将家具的名称添加到列表中
-            self.item_list.append(item.name)
-            # 3.计算剩余面积
-            self.free_area -= item.area
+        # 2.将家具的名称添加到列表中
+        self.item_list.append(item.name)
+        # 3.计算剩余面积
+        self.free_area -= item.area
 
 # 1.创建家具对象
-bed = Home('bed', 4)
-yg = Home('yg', 2)
-table = Home('table', 1.5)
+bed = Home('床', 4)
+yg = Home('衣柜', 2)
+table = Home('餐桌', 1.5)
 
 # 2.创建房子对象
 my_house = House('两室一厅', 100)
@@ -276,7 +270,7 @@ class Gun:
             self.bullet_count += count
 
 
-ryan = Soldier('Ryan')
+ryan = Soldier('瑞恩')
 
 AK47 = Gun('AK47')
 AK47.shoot()    #此时没有子弹不能射击

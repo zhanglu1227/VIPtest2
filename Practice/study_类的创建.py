@@ -30,12 +30,18 @@ class Teacher(Person):
         self.name = name
 
     def teach(self, course):
-        print('工号为：%s的老师教%s课'% (self.gh, course))
-        print('名字为：%s的老师教%s课'% (self.name, course))
-        print(self.sleep())
+        print('工号为%s的老师，教%s课'% (self.gh, course))
+        print('名字是%s，工号为%s的老师，吃饭'% (self.name, self.gh))
+        # print(self.sleep())
 
-a = Teacher(98, 'xiaohong')
-a.teach('python')
+    def work(self, place, salary):
+        print('工号为%s的老师，在%s上班，一月工资%s'%(self.gh, place, salary))
+
+a = Person('小明')
+b = Teacher(98, 'xiaohong')
+b.teach('python')
+b.work('北京', 8000)
+
 
 
 # 第一步：实例化（调用类）-- 创建一个对象（变量名(随意)=类名()）

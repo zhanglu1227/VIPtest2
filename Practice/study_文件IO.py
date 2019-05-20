@@ -28,9 +28,9 @@
 # print(f.readlines())
 # f.close()
 
-f = open('/Users/cola/Desktop/testcode/VIPtest2/data2', 'r')
-li = []
-f1 = f.read()
+# f = open('/Users/cola/Desktop/testcode/VIPtest2/data2', 'r')
+# li = []
+# f1 = f.read()
 # f1 = f.readlines()
 
 # for s in f1:
@@ -59,16 +59,21 @@ f1 = f.read()
 # print(li)
 
 
-n = 1
+
+
+f = open('/Users/cola/Desktop/testcode/VIPtest2/data2', 'r+')
+f1 = f.read()
+li = []
+
 for line in f1:
-    n += 1
     line = line.replace('', '')
-    # line = line.replace('\n', '')
+
     if line.isdigit():
         li.append(line)
 
     else:
         continue
+
 
 # print(li)
 
@@ -79,6 +84,10 @@ def bubble_sort(li):
                 li[j], li[j+1] = li[j+1], li[j]
     return li
 print(bubble_sort(li))
+
+f2 = open('/Users/cola/Desktop/testcode/VIPtest2/data3', 'r+')
+f2.write(str(bubble_sort(li)))
+f2.close()
 
 
 
